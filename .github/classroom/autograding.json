@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Addition",
+      "name": "Teacher Calculation Tests",
       "setup": "sudo -H pip3 install -r requirements.txt ",
-      "run": "pytest --pylint tests/test_addition.py",
+      "run": "pytest --pylint tests/test_calculator_teacher.py ",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 25
     },
     {
-      "name": "Subtraction",
+      "name": "Calculation",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest --pylint tests/test_subtraction.py",
+      "run": "pytest --pylint tests/test_calculation_teacher.py ",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -21,24 +21,24 @@
       "points": 25
     },
     {
-      "name": "Division",
+      "name": "Teacher History Tests",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest --pylint tests/test_division.py",
+      "run": "pytest --pylint tests/test_history_teacher.py ",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 30
     },
     {
-      "name": "Multiplication",
+      "name": "Convert",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest --pylint tests/test_multiplication.py",
+      "run": "pytest --pylint tests/test_convert_teacher.py",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 20
     }
   ]
 }
